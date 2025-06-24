@@ -3,6 +3,7 @@ node_modules
 .vscode
 package-lock.json
 pnpm-lock.yaml
+pnpm-workspace.yaml
 changeLog.md
 css
 dist

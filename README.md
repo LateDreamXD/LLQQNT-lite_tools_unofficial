@@ -2,25 +2,23 @@
   <img width="160" alt="icon" height="160" src="./icon.png" />
 </p>
 
-<h1 align="center">轻量工具箱</h1>
+<h1 align="center">轻量工具箱非官方版</h1>
 
 <p align="center">
   <a href="/LICENSE"><img src="https://img.shields.io/github/license/xiyuesaves/LiteLoaderQQNT-lite_tools" alt="LICENSE"></a>
-  <a href="https://github.com/xiyuesaves/LiteLoaderQQNT-lite_tools/releases"><img src="https://img.shields.io/github/v/release/xiyuesaves/LiteLoaderQQNT-lite_tools" alt="Release"></a>
-  <a href="https://github.com/xiyuesaves/LiteLoaderQQNT-lite_tools/issues"><img src="https://img.shields.io/github/issues/xiyuesaves/LiteLoaderQQNT-lite_tools" alt="Issues"></a>
+  <a href="https://github.com/LateDreamXD/LLQQNT-lite_tools_unofficial/releases"><img src="https://img.shields.io/github/v/release/LateDreamXD/LLQQNT-lite_tools_unofficial" alt="Release"></a>
+  <a href="https://github.com/LateDreamXD/LLQQNT-lite_tools_unofficial/issues"><img src="https://img.shields.io/github/issues/LateDreamXD/LLQQNT-lite_tools_unofficial" alt="Issues"></a>
 </p>
 
-LiteLoaderQQNT 插件 - 轻量工具箱 —— 轻量 · 优雅 · 高效
+LiteLoaderQQNT 插件 - 轻量工具箱非官方版 —— 轻量 · 优雅 · 高效
+
+官方版: [轻量工具箱](https://github.com/xiyuesaves/LiteLoaderQQNT-lite_tools)
 
 LiteLoaderQQNT 本体：[LiteLoaderQQNT](https://github.com/mo-jinran/LiteLoaderQQNT)
 
 > [!CAUTION]\
 > **不要在国内平台宣传该插件**\
 > **不要在 QQ 官方群聊发送*任何*可以看出你使用了第三方插件的截图**
-
-> [!Warning]\
-> **请注意** 由于长时间未更新，该插件已无法在最新版本的 QQNT 上运行，根据此 [Issue](https://github.com/xiyuesaves/LiteLoaderQQNT-lite_tools/issues/379#issuecomment-2708869340) 中的描述，还能正常使用的构建版本号为 ```29804```\
-> ~~该插件进入缓慢维护状态，无法保证所有功能在最新版 QQNT 下的可用性，以及 Bug 的修复时间将被大幅延长。~~
 
 > [!NOTE]\
 > 该插件在 Windows 环境下测试开发，理论全平台兼容，但没有条件对 Mac 和 Linux 平台进行测试
@@ -32,27 +30,27 @@ LiteLoaderQQNT 本体：[LiteLoaderQQNT](https://github.com/mo-jinran/LiteLoader
 
 ### 从 Releases 中下载稳定版的方式进行安装
 
-- 下载 [最新发布版本](https://github.com/xiyuesaves/LiteLoaderQQNT-lite_tools/releases/latest) 中的 `lite_tools_v4.zip`
+- 下载 [最新发布版本](https://github.com/LateDreamXD/LLQQNT-lite_tools_unofficial/releases/latest) 中的 `lite_tools_uno_v4.zip`
 - 将压缩包中的内容解压到 [LiteLoaderQQNT](https://github.com/mo-jinran/LiteLoaderQQNT) 数据目录的 `plugins/lite_tools` （需要手动创建 `lite_tools` 文件夹）路径下
 - 重启 QQNT 安装完成
 
 ### 插件内自动更新
 
-- 打开设置页面，选择 `轻量工具箱`
+- 打开设置页面，选择 `轻量工具箱非官方版`
 - 滚动到插件页面底部，点击新版本号，在更新日志窗口点击 `更新` 即可
 
 ### 手动构建
 
 ```
-git clone git@github.com:xiyuesaves/LiteLoaderQQNT-lite_tools.git
-cd ./LiteLoaderQQNT-lite_tools
+git clone git@github.com:LateDreamXD/LLQQNT-lite_tools_unofficial.git
+cd ./LLQQNT-lite_tools_unofficial
 pnpm i
 pnpm run build
 ```
 
 ### 查看当前版本更新日志
 
-- 打开设置页面，选择 `轻量工具箱`
+- 打开设置页面，选择 `轻量工具箱非官方版`
 - 滚动到插件页面底部，点击当前版本号即可
 
 ## 功能列表
@@ -74,12 +72,12 @@ pnpm run build
 
 ### 一切开发旨在学习，请勿用于非法和商业用途
 
-- 轻量工具箱 是完全免费且开放源代码的软件，仅供学习和娱乐用途使用。
-- 轻量工具箱 不会通过任何方式强制收取费用，或对使用者提出物质条件。
-- 轻量工具箱 由整个开源社区维护，并不是属于某个个体的作品，所有贡献者都享有其作品的著作权。
-- 轻量工具箱 禁止用于任何非法用途，插件开发属学习与研究目的，仅自用，未提供给任何第三方使用。任何不当使用导致的任何侵权问题责任自负。
+- 轻量工具箱非官方版 是完全免费且开放源代码的软件，仅供学习和娱乐用途使用。
+- 轻量工具箱非官方版 不会通过任何方式强制收取费用，或对使用者提出物质条件。
+- 轻量工具箱非官方版 由整个开源社区维护，并不是属于某个个体的作品，所有贡献者都享有其作品的著作权。
+- 轻量工具箱非官方版 禁止用于任何非法用途，插件开发属学习与研究目的，仅自用，未提供给任何第三方使用。任何不当使用导致的任何侵权问题责任自负。
 
-## Star History
+<!-- ## Star History
 
 <picture>
   <source
@@ -94,4 +92,4 @@ pnpm run build
     alt="Star History Chart"
     src="https://starchart.cc/xiyuesaves/LiteLoaderQQNT-lite_tools.svg?background=%23ffffff00&axis=%231a1a1a&line=%2321acec"
   />
-</picture>
+</picture> -->

@@ -1,12 +1,16 @@
 {
   "manifest_version": 4,
   "type": "extension",
-  "name": "轻量工具箱",
+  "name": "轻量工具箱非官方版",
   "slug": "lite_tools",
   "description": "轻量 · 优雅 · 高效",
   "version": "2.33.9",
   "icon": "./icon.png",
   "authors": [
+    {
+      "name": "晚梦",
+      "link": "https://about.latedream.cn"
+    },
     {
       "name": "曦月",
       "link": "https://github.com/xiyuesaves"
@@ -19,15 +23,15 @@
   ],
   "injects": {
     "renderer": "./src/renderer.js",
-    "main": "./src/nobuild.js",
+    "main": "./dist/main.js",
     "preload": "./src/preload.js"
   },
   "repository": {
-    "repo": "xiyuesaves/LiteLoaderQQNT-lite_tools",
-    "branch": "v4",
+    "repo": "LateDreamXD/LLQQNT-lite_tools_unofficial",
+    "branch": "v4-dev",
     "release": {
       "tag": "v2.33.9",
-      "file": "lite_tools_v4.zip"
+      "file": "lite_tools_uno_v4.zip"
     }
   }
 }

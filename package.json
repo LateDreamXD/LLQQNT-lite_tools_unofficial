@@ -1,15 +1,13 @@
 {
   "name": "lite_tools",
+  "private": true,
   "version": "2.33.9",
-  "description": "LiteLoaderQQNT 插件 轻量工具箱",
   "main": "esbuild.config.mjs",
   "scripts": {
     "build": "node esbuild.config.mjs",
     "build-push": "node esbuild.config.mjs --push",
     "build-dev": "node esbuild.config.mjs --dev"
   },
-  "keywords": [],
-  "author": "",
   "license": "GPL-3.0",
   "devDependencies": {
     "@eslint/js": "^9.3.0",

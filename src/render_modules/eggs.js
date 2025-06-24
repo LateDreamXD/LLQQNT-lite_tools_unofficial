@@ -15,7 +15,7 @@ if (isToday()) {
 
 function showRealName() {
   document.querySelectorAll(".nav-item.liteloader,.nav-bar.liteloader .nav-item").forEach((node) => {
-    if (node.textContent === "轻量工具箱") {
+    if (node.textContent === "轻量工具箱非官方版") {
       node.querySelector(".name").innerHTML = "超重工具箱";
       const iconEl = node.querySelector(".q-icon");
       iconEl.innerHTML = weightIcon;
@@ -43,7 +43,7 @@ function showRealName() {
 }
 
 document.querySelectorAll(".nav-item.liteloader,.nav-bar.liteloader .nav-item").forEach((node) => {
-  if (node.textContent === "轻量工具箱") {
+  if (node.textContent === "轻量工具箱非官方版") {
     node.setAttribute("title", "这个标题之下似乎隐藏着什么...");
     node.querySelector(".name").classList.add("lt-eggs-title");
     node.addEventListener(

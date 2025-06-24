@@ -34,7 +34,7 @@ async function onConfigView(view) {
   // await new Promise((res) => setTimeout(res, 3000));
 
   document.querySelectorAll(".nav-item.liteloader,.nav-bar.liteloader .nav-item").forEach((node) => {
-    if (node.textContent === "轻量工具箱") {
+    if (node.textContent === "轻量工具箱非官方版") {
       node.querySelector(".q-icon").innerHTML = pluginIcon;
     }
   });

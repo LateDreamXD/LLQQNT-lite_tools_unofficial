@@ -20,10 +20,10 @@ jobs:
           npm install
           npm run build
           rm -rf ./node_modules
-          zip -r ./lite_tools_v4.zip ./*
+          zip -r ./lite_tools_uno_v4.zip ./*
       - name: Upload Release File
         uses: softprops/action-gh-release@v2
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: lite_tools_v4.zip
+          files: lite_tools_uno_v4.zip
           body_path: ./release.md
