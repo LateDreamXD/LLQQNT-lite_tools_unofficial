@@ -23,6 +23,9 @@ import "./main_modules/extractEifFile.js";
 const log = new Logs("main");
 const err = new Logs("Error");
 
+/** @name qq构建版本号 */
+const qqVer = parseInt((LiteLoader.versions.qqnt.split('-')[1]));
+
 /**
  * 是否已经初始化
  */
@@ -97,8 +100,9 @@ function proxySend(window) {
       }
     } else {
       try {
-        if (args?.[2]?.[0]?.cmdName === "nodeIKernelSessionListener/onSessionInitComplete") {
-          loadUserConfig(args?.[2]?.[0]?.payload?.uid);
+        const argsTarget = (qqVer >= 32000)? args?.[2]: args?.[2]?.[0];
+        if (argsTarget?.cmdName === "nodeIKernelSessionListener/onSessionInitComplete") {
+          loadUserConfig(argsTarget?.payload?.uid);
           initMain();
           log("成功读取配置文件");
           init = true;
