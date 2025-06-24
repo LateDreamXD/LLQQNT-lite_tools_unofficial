@@ -11,6 +11,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Generate changelog
+        env:
+          filename: changeLog.md
+        run: |
+          echo -e '## 更新日志\n' > ${{ env.filename }}
+          git log --pretty=format:'- %s by @%an' --grep '^(fix|feat|perf)(\(.+\))?:' -E $(git describe --tags --abbrev=0 ${{ github.ref_name }}^)..${{ github.ref_name }} >> ${{ env.filename }}
+          echo -e '\n\n**Full Changelog**: https://github.com/${{ github.repository }}/compare/'$(git describe --tags --abbrev=0 ${{ github.ref_name }}^)'...${{ github.ref_name }}' >> ${{ env.filename }}
       - name: Set up Nodejs
         uses: actions/setup-node@v4
         with:
