@@ -18,7 +18,7 @@ class Logs {
     return this.logToConsole.bind(this);
   }
   logToConsole(...args) {
-    if (options.debug.console) {
+    if (options.debug?.console) {
       console.log(`[${this.moduleName}]`, ...args);
       this.saveToLogList(args);
     }
