@@ -1,0 +1,4 @@
+{
+	"extends": "@llqqntuno/liteloader-types/jsconfig",
+	"include": ["./src/**/*"]
+}
