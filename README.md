@@ -4,6 +4,12 @@
 
 <h1 align="center">轻量工具箱非官方版</h1>
 
+> [!CAUTION]
+> **我不打算维护该插件了**  
+> 主要是由于上游代码太烂(  
+> 所以我打算自己重写一个 轻量工具箱: 重生(  
+> 时间待定吧 预计7月底-8月初会立项
+
 <p align="center">
   <a href="/LICENSE"><img src="https://img.shields.io/github/license/xiyuesaves/LiteLoaderQQNT-lite_tools" alt="LICENSE"></a>
   <a href="https://github.com/LateDreamXD/LLQQNT-lite_tools_unofficial/releases"><img src="https://img.shields.io/github/v/release/LateDreamXD/LLQQNT-lite_tools_unofficial" alt="Release"></a>
